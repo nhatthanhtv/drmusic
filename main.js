@@ -48,7 +48,7 @@ const app = {
           {
             name: "Lưu số em đi",
             singer: "HUVA Remix",
-            path: "https://data.chiasenhac.com/down2/2220/6/2219819-ea722e6f/128/Luu%20So%20Em%20Di%20HUVA%20Remix_%20-%20Huynh%20Van_%20Vu.mp3",
+            path: "./assets/music/Luu So Em Di HUVA Remix_ - Huynh Van_ Vu.mp3",
             image:
               "https://data.chiasenhac.com/data/cover/154/153664.jpg"
           },
@@ -56,7 +56,7 @@ const app = {
           {
               name: "Giao quẻ",
               singer: "Hoàng Thùy Linh",
-              path: "https://data.chiasenhac.com/down2/2216/6/2215074-8d51eab0/128/Gieo%20Que%20-%20Hoang%20Thuy%20Linh_%20Den.mp3",
+              path: "./assets/music/Gieo Que - Hoang Thuy Linh_ Den.m4a",
               image: "https://data.chiasenhac.com/data/cover/153/152195.jpg"
           },
           {
@@ -215,6 +215,7 @@ const app = {
 
 
         playBtn.onclick = function(){
+            console.log(123)
             if(app.isPlaying){
                 audio.pause();         
             }
@@ -338,11 +339,12 @@ const app = {
 
         onTab.onclick = function (e) {
             if(app.isTab){
-                tabView.style.display = "none";
+                tabView.style.display = "none";         
                 app.isTab = false;
             }
             else {
                 tabView.style.display = "block";
+                
                 app.isTab = true;
             }
             

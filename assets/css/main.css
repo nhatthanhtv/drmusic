@@ -386,6 +386,7 @@
     align-items: center;
     justify-content: center;
     padding: 18px 0 8px 0;
+    
    
   }
   
@@ -521,7 +522,7 @@
     border-radius: 20px;
     width: 80%;
     height: 120px;
-    z-index: 2;
+    z-index: 1;
     box-shadow: 0 0 3px #888;
     
   }
@@ -679,11 +680,11 @@
     top: 60px;
     z-index: 3;
     min-height: 100%;
-    width: 60%;
+    width: 100%;
     display: none;
     left: 0;
     box-shadow: 0 0 3px #888;
-    animation: navbarMobileView linear 0.4s;
+    animation: navbarMobileView linear 0.25s;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -779,3 +780,5 @@
     }
     
 }
+
+
