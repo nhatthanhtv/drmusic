@@ -82,14 +82,14 @@ const app = {
           {
             name: "Không Trọn Vẹn Nữa",
             singer: "Châu Khải Phong",
-            path: "https://data.chiasenhac.com/down2/2216/6/2215070-296b7300/128/Khong%20Tron%20Ven%20Nua%20-%20Chau%20Khai%20Phong_%20AC.mp3",
+            path: "./assets/music/Khong Tron Ven Nua - Chau Khai Phong_ AC.m4a",
             image: "https://data.chiasenhac.com/data/cover/153/152193.jpg"
           },
 
           {
             name: "Giữa Đại Lộ Đông Tây",
             singer: "Uyên Linh",
-            path: "https://data.chiasenhac.com/down2/2165/6/2164502-2ffc93ee/128/Giua%20Dai%20Lo%20Dong%20Tay%20-%20Uyen%20Linh.mp3",
+            path: "./assets/music/Giua Dai Lo Dong Tay - Uyen Linh.mp3",
             image: "https://data.chiasenhac.com/data/cover/139/138656.jpg"
           },
 
