@@ -41,7 +41,7 @@ const app = {
           {
             name: "Vui lắm nha",
             singer: "Hương Ly",
-            path: "https://data.chiasenhac.com/down2/2217/6/2216465-0ddd4ca9/128/Vui%20Lam%20Nha%20-%20Huong%20Ly_%20Jombie.mp3",
+            path: "./assets/music/Vui Lam Nha - Huong Ly_ Jombie.mp3",
             image:
               "https://data.chiasenhac.com/data/cover/153/152594.jpg"
           },
@@ -59,16 +59,11 @@ const app = {
               path: "./assets/music/Gieo Que - Hoang Thuy Linh_ Den.m4a",
               image: "https://data.chiasenhac.com/data/cover/153/152195.jpg"
           },
-          {
-            name: "Wave",
-            singer: "Band Wave",
-            path: "https://data.chiasenhac.com/down2/2215/6/2214359-3b5a1ac9/128/WaVeStar%20-%20WaVe_%20Arena%20Of%20Valor.mp3",
-            image: "https://data.chiasenhac.com/data/cover/152/151902.jpg"
-          },
+          
           {
             name: "Señorita",
             singer: "S.Mendes & C.Cabello",
-            path: "https://data.chiasenhac.com/down2/2211/6/2210243-9c0b5785/128/Senorita%20-%20Shawn%20Mendes_%20Camila%20Cabello.mp3",
+            path: "./assets/music/Senorita - Shawn Mendes_ Camila Cabello.mp3",
             image: "https://data.chiasenhac.com/data/cover/107/106207.jpg"
           },
 
@@ -96,7 +91,7 @@ const app = {
           {
             name: "Sài Đau Lòng Quá",
             singer: "Hứa Kim Tuyền",
-            path: "https://data.chiasenhac.com/down2/2162/6/2161930-9845d4d3/128/Sai%20Gon%20Dau%20Long%20Qua%20-%20Hua%20Kim%20Tuyen_%20Ho.mp3",
+            path: "./assets/music/Sai Gon Dau Long Qua - Hua Kim Tuyen_ Ho.mp3",
             image: "https://data.chiasenhac.com/data/cover/138/137965.jpg"
           },
 
